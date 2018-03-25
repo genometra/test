@@ -1,0 +1,521 @@
+/*
+CTC Separate Stylesheet
+Updated: 2016-06-07 13:42:34
+*/
+
+body {
+    line-height: 25px;
+    color: #808080;
+    background-image: url('http://www.genometra.com/wp-content/uploads/2016/05/fondo_motivo.jpg');
+    font-family: 'Lato', Helvetica, sans-serif !important;
+}
+blockquote {
+    font-size: 18px;
+    margin: 0 1.5em;
+    margin: 24px 1.5em 24px 40px;
+    margin: 24px 40px 0 1.5em;
+    margin: 24px 1.5em;
+    margin: 24px 40px 0;
+    margin: 24px 40px;
+    margin: 24px 40px 24px 1.5em;
+    margin: 24px 1.5em 0 40px;
+    margin: 0 40px 24px;
+    margin: 0 1.5em 24px;
+    margin: 0 1.5em 0 40px;
+    margin: 0 1.5em 24px 40px;
+    margin: 0 40px 0 1.5em;
+    margin: 0 40px 24px 1.5em;
+    margin: 0 40px;
+    margin: 24px 1.5em 0;
+}
+a:focus, a:active, a:hover {
+    outline: 0;
+    text-decoration:none;
+}
+a:link {
+    text-decoration:none;
+}
+a:visited {
+    outline: 0;
+    text-decoration:none;
+}
+ul, ol {
+    text-align: justify;
+    margin-bottom: 1.5em;
+}
+::selection {
+    background-color: #338fff;
+}
+::-moz-selection {
+    background-color: #338fff;
+}
+a {
+    color: #f5a30a;
+}
+b, strong {
+    font-weight: bold;
+}
+address {
+    margin-bottom: 1.5em;
+}
+pre {
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    background-color: #eee;
+    padding: 1.6em;
+}
+small {
+    font-size: 75%;
+}
+dl {
+    margin-bottom: 0;
+}
+h1, h2 {
+    font-family: Arial, Verdana;
+}
+.red-btn {
+    background-color: #f5a30a;
+}
+hr {
+    margin-bottom: 1.5em;
+    height: 1px;
+}
+dt {
+    font-weight: bold;
+}
+figure {
+    margin: 0;
+}
+.red-bg {
+    background-color: #f5a30a;
+}
+.red-text {
+    color: #f5a30a;
+}
+h3.red-border-bottom {
+    width: 160px;
+}
+.red-border-bottom:before {
+    background-color: #f5a30a;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background-color: #f5a30a;
+}
+textarea:hover, input:hover, textarea:active, input:active, textarea:focus, input:focus {
+    outline-color: #f5a30a !important;
+}
+a:visited {
+    color: #f5a30a;
+}
+.nav-links a {
+    color: #f5a30a;
+}
+.widget {
+    padding-top: 10px;
+}
+.widget .widget-title:before {
+    background-color: #f5a30a;
+}
+.widget_search .search-submit {
+    background-image: url(images/search_icon.png);
+}
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+    margin-left: 0;
+    margin-right: 0;
+}
+.page-header {
+    margin-bottom: 40px;
+    border-bottom: none;
+    margin-top: 0;
+}
+.entry-title {
+    text-transform: uppercase;
+}
+.entry-title:before {
+    background-color: #f5a30a;
+}
+.comment-form #submit, .comment-reply-link {
+    background-color: #f5a30a;
+    border-color: #f5a30a;
+}
+#main-nav {
+    position: relative;
+}
+.navbar {
+    padding: 1.5% 1.5%;
+}
+#main-nav.fixed {
+    position: relative;
+}
+.navbar-inverse .navbar-nav >li {
+    margin-top: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #404040;
+}
+.navbar-inverse .navbar-nav ul.sub-menu li:hover > a, .navbar-inverse .navbar-nav ul.sub-menu li.link-focus > a {
+    color: #f5a30a;
+}
+.navbar-brand {
+    padding: 7px 12px;
+    line-height: 60px;
+    height: 76px;
+}
+.navbar-brand:hover, .navbar-brand:focus, .navbar-brand:active {
+     outline: 0;
+     border: 0;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a.link-focus {
+    color: #f5a30a;
+}
+.navbar-toggle {
+    border: 0;
+    margin-top: 23px;
+    margin-right: 13px;
+    background-color: #808080;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #f5a30a;
+}
+.navbar-toggle.active {
+    background-color: #f5a30a !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #f5a30a;
+}
+.navbar-inverse .navbar-nav>li.current>a {
+    color: #f5a30a;
+}
+li.current>a:before {
+    background-color: #f5a30a;
+}
+ul.nav > li.current_page_item > a:before, ul.nav > li.current-menu-item > a:before {
+    background-color: #f5a30a;
+}
+ul.nav > li.current_page_item.current > a:before {
+    background-color: #f5a30a;
+}
+.latest-news {
+    padding-top: 0;
+}
+#carousel-homepage-latestnews .item .latestnews-box{
+    display: inline-block;
+    text-align: center;
+    float: none !important;
+}
+#carousel-homepage-latestnews .item .latestnews-box .latestnews-title a:before {
+    background-color: #f5a30a;
+}
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+1) .latestnews-title a:before {
+    background-color: #f5a30a;
+}
+#carousel-homepage-latestnews .glyphicon-chevron-left:before {
+    background-image: url(images/left-arrow.png);
+}
+#carousel-homepage-latestnews .glyphicon-chevron-right:before {
+    background-image: url(images/right-arrow.png);
+}
+.focus {
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.focus-box:nth-child(4n+1) .service-icon:hover {
+    border: 10px solid #f5a30a;
+}
+.focus-box:nth-child(4n+1) .red-border-bottom:before {
+    background-color: #f5a30a;
+}
+.focus-box p {
+    font-size: 15px;
+}
+.other-focuses {
+    background-image: url(images/lines.png);
+}
+.separator-one {
+    padding-top: 10px;
+    background-color: #fff;
+}
+.separator-one .green-btn {
+    width: 180px;
+    height: 57px;
+    background-image: url(http://www.genometra.com/wp-content/uploads/2016/05/bt_quote01.jpg);
+}
+.separator-one .green-btn:hover {
+    background-image: url(http://www.genometra.com/wp-content/uploads/2016/05/bt_quote01.jpg);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.separator-one .text {
+    color: #000;
+}
+.pirate_forms_error_box p {
+    background-color: #f5a30a;
+}
+.package .order-now:hover {
+    background-color: #f5a30a;
+}
+.purchase-now {
+    background-color: #F7F8FA;
+}
+.contact-us .error p {
+    background-color: #f5a30a;
+}
+.company-details a:hover {
+    color: #f5a30a;
+}
+.social {
+    text-align: center;
+}
+.social li a {
+    font-size: 26px;
+    color: #fafafa;
+}
+.social li a:hover {
+    color: #939393;
+}
+article .posted-on a:hover {
+    color: #f5a30a;
+}
+.entry-footer a:hover {
+    color: #f5a30a;
+}
+.entry-title a:hover {
+    color: #f5a30a;
+}
+
+.entry-title:after {
+    background-color: #f5a30a;
+}
+.listpost-content-wrap .entry-title a:after {
+    background-color: #f5a30a;
+}
+.entry-content {
+    margin-top: 2em;
+    margin-top: 1em;
+}
+.entry-footer-large a:hover {
+    color: #f5a30a;
+}
+.row {
+    margin-left: -7px;
+    margin-right: 0;
+}
+.widget_calendar a {
+    color: #f5a30a;
+}
+.widget_calendar a:hover {
+    background-color: #f5a30a;
+}
+.bbp-body a.bbp-topic-permalink:hover {
+    color: #f5a30a;
+}
+.bbp-body .bbp-topic-permalink:after {
+    background-color: #f5a30a;
+}
+.bbp-topic-tags a:hover {
+    color: #f5a30a;
+}
+.bbp-body>ul:nth-child(4n+3) .bbp-forum-title:after {
+    background-color: #f5a30a;
+}
+.bbp-body>ul:nth-child(4n+3) .bbp-topic-permalink:after {
+    background-color: #f5a30a;
+}
+span.bbp-admin-links a:hover {
+    color: #f5a30a !important;
+}
+#favorite-toggle a:hover, #subscription-toggle a:hover {
+    color: #f5a30a;
+}
+ul.sub-menu {
+    text-align: left;
+}
+#custom-nav {
+    margin-right: -15px;
+    padding: 8px 0 5px 0;
+}
+#customers {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+#slider {
+    background-color: #fff;
+    margin: 0;
+}
+.zerif-footer-address a {
+    color: #939393;
+}
+.copyright {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+#terms {
+    margin: 0 0 10px 0 !important;
+}
+
+#mobilebgfix {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+input[type="text"] {
+    width: 100%;
+}
+.info_loc {
+    margin-left: 5%;
+}
+.entry-content fieldset {
+    border: 1px solid #E7E7E7;
+    margin: 0 0 24px 0;
+    padding: 24px;
+}
+.entry-content fieldset legend {
+    font-weight: bold;
+    padding: 0 2px;
+    width: initial;
+}
+.entry-content fieldset input {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+}
+div.wpcf7-response-output {
+    float: left;
+}
+.header.header > .navbar {
+    -webkit-box-shadow: 0px 11px 15px -6px #f5a30a;
+    box-shadow: 0px 11px 15px -6px #f5a30a;
+}
+a.language {
+    font-size: 14px;
+    color: #404040;
+}
+.dropdown-menu {
+    top: initial;
+}
+
+@media (max-width: 767px){ 
+.focus-box .service-icon {
+    width: 125px;
+    height: 125px;
+}
+.social li a {
+    font-size: 32px;
+}
+#slider {
+    padding-top: 25px;
+}
+}
+@media (max-width: 768px){
+.wp-image-2353 {
+    width: 40%;
+}
+.container {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.dropdownmenu {
+    background-color: #f5a30a;
+}
+.this-open > a {
+    color: #f5a30a !important;
+}
+.header {
+    padding-bottom: 0 !important;
+}
+.intro {
+    font-size: 6.5vw;
+    line-height: 8vh;
+}
+}
+@media (max-width: 768px) and (orientation: portrait){
+.wp-image-1916, .wp-image-2066 {
+    width: 30%;
+}
+}
+@media (min-width: 768px) {
+#slider {
+    padding: 4% 4% 0 4%;
+}
+}
+@media (max-width: 991px) {
+.widget_nav_menu {
+    display: none;
+}
+ul, ol {
+    margin: 0 0 1.5em 1.6em;
+}
+}
+@media (max-width: 992px) {
+#custom-nav {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #mobilebgfix {
+    max-width: 90%;
+    margin: 25px auto;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    padding: 0 25px;
+}
+}
+@media (min-width: 1024px) {
+.navbar {
+    border-radius: 10px 10px 0 0 !important;
+}
+#footer {
+    border-radius: 0 0 10px 10px !important;
+}
+}
+@media (min-width: 1200px) {
+#mobilebgfix {
+    max-width: 80%;
+    margin: 25px auto;
+}
+.container {
+    width: 100%;
+    padding: 0 36px;
+}
+.focus .container {
+    padding: 0 20px;
+}
+/*.content-left-wrap {
+    padding-left: 30px;
+}*/
+}
+@media (min-width: 1500px) {
+#mobilebgfix {
+    width: 75%;
+}
+.focus .container {
+    padding: 0 4%;
+}
+}
+@media (max-width: 640px) {
+.site-main p {
+    margin: 0 0 24px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.container {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#mobilebgfix {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+}
